@@ -1,10 +1,8 @@
 #nav {
-  background-color: rgba(39, 147, 217, 1);
+  background-color: rgba(104, 255, 119, 1);
   width:  100%;
+  padding: 1%;
   text-align: center;
-  position: fixed;
-  top: 0;
-  z-index: 200;
 }
 
 #nav li {
@@ -16,6 +14,10 @@
   text-transform: uppercase;
   padding: 15px 5px;
   margin-right: 10px;
+}
+
+#nav li:nth-child(2) {
+  font-size: 3em;
 }
 
 #nav a {
@@ -45,12 +47,21 @@ h1 {
   height: auto;
 }
 
+.keys:hover {
+  width: 130%;
+  height: auto;
+}
+
 .content {
   width: 35%;
 }
 
-.blogpost {
+.blogpost > p {
   width: 50%;
   text-align: left;
   padding: 20px;
+}
+
+.blogpost > div {
+
 }
