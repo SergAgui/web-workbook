@@ -6,50 +6,55 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
   </head>
-  <body>
-    <header>
+  <header>
       <!-- top nav bar -->
-      <div class="top">
-        <img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\logo.png" />
-        <div class="nav">
-          <ul>
-            <li>Home</li>
-            <li>Travel Deals</li>
-            <li>Flight Schedule</li>
-            <li>Register/Login</li>
-          </ul>
-        </div>
+    <div class="top">
+      <img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\logo.png" />
+      <div class="nav">
+        <ul>
+          <li><img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\home-icon.png" />Home</li>
+          <li><img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\deal-icon.png" />Travel Deals</li>
+          <li><img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\schedule-icon.png" />Flight Schedule</li>
+          <li><img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\login-icon.png" />Register/Login</li>
+        </ul>
       </div>
-    </header>
-
-
-      <!-- </div>
-      <div class="navContainer">
-        <h1>UX ATLANTIC</h1>
-        <div class="nav">
-          <p>Home</p>
-          <p>Travel Deals</p>
-          <p>Flight Schedule</p>
-          <p>Register/Login</p>
-        </div>
+    </div>
+  </header>
+  <body>
+    <img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\airline.jpg" />
+    <div class="container">
+      <div class="topHead">
+        <div class="one"><img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\plane-icon.png" /></div>
+        <div class="two"><img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\hotel-icon.png" /></div>
+        <div class="three"><img src="C:\Users\User\Desktop\web-workbook\03week\airplane\img\car-icon.png" /></div>
       </div>
-    </header>
-
--how many passengers and selecting return or one way-
-div class passenger-info
-div class quantity
-label for=pass-qty' class 'formformField
-option value 1 label 1 /option'
-input type='radio' checked=checked name=direction value=return
-label for=direction> return=
-
-  -->
-    <main>
       <div class="form">
-        <div class="label">
-          
+        <div class="depart">
+          <input type="text" class="depart-field" placeholder="Depart">
+          <form>
+            <input type="date">
+          </form>
+        </div>
+        <div class="arrive">
+          <input type="text" class="arrive-field" placeholder="Arrive">
+          <form>
+            <input type="date">
+          </form>
         </div>
       </div>
-
-    </main>
+      <div class="passengers">
+        <h2>Passengers</h2>
+        <form>
+          <input type="number" name="" min="1" max="9">
+        </form>
+        <form>
+          <input type="radio" value="return" checked>Return
+          <input type="radio" value="oneway">One-Way
+        </form>
+      </div>
+      <div class="submit">
+        <input type="button" value="Search Flights">
+      </div>
+    </div>
   </body>
+</html>
