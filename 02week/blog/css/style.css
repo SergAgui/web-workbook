@@ -1,10 +1,22 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 #nav {
   background-color: rgba(39, 147, 217, 1);
-  width:  100%;
+  width: 100%;
   text-align: center;
   position: fixed;
   top: 0;
-  
+  right: 0;
+  left: 0;
+
+
 }
 
 #nav li {
@@ -23,20 +35,26 @@
 }
 
 #container {
-  background-color: rgba(246, 241, 229, 0.7);
-  text-align:center;
-  margin: 10px auto auto auto;
-  padding: 20px;
+  background-color: rgba(246, 241, 229, 0.83);
+  text-align: center;
+  position: static;
+  margin: 50px auto auto auto;
+  padding-top: 6%;
   width: 70%;
+  height: 100%;
+  display: block;
 }
 
 h1 {
   font-family: georgia;
 }
 
-#sidebar {
-  margin-left: 15px;
+.bars {
+  margin-bottom: 15px;
+  padding: 5px 10px 5px 10px;
   width: 20%;
+  display: inline-block;
+
 }
 
 .keys {
@@ -45,12 +63,12 @@ h1 {
   height: auto;
 }
 
-.content {
-  width: 35%;
+a  p:hover::first-letter {
+  font-size: 24px;
+  color: red;
 }
 
-.blogpost {
-  width: 50%;
-  text-align: left;
-  padding: 20px;
+main div:nth-child(7) aside div p:hover::first-letter {
+  font-size: 30px;
+  color: yellow !important;
 }
