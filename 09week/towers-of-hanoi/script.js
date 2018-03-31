@@ -21,7 +21,6 @@ $(document).ready(function() {
 
       checkWin1();
 
-      // $(ui.draggable).appendTo($(this)).attr('style', 'position: relative');
     }
   });
 });
@@ -31,7 +30,3 @@ function checkWin1(){
     $('#announce-game-won').text('Winner!')
   };
 };
-
-// $('#clear').click(function) {
-//
-// };
